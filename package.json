@@ -1,7 +1,7 @@
 {
-  "name": "game-dev-api",
+  "name": "simple-rest-api",
   "version": "1.0.0",
-  "description": "MongoDB API for my Game-Dev-Tycoon game",
+  "description": "Simple rest api example",
   "main": "index.js",
   "scripts": {
     "start-api": "nodemon --unhandled-rejections=strict index.js",
@@ -10,15 +10,14 @@
   "author": "Bjarne Voigtländer",
   "license": "MIT",
   "dependencies": {
-    "bcrypt": "^4.0.1",
+    "bcrypt": "^5.0.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "express-handlebars": "^4.0.3",
+    "express-handlebars": "^4.0.4",
     "jsonwebtoken": "^8.5.1",
-    "mongodb": "^3.5.5",
-    "node-fetch": "^2.6.0",
-    "nodemailer": "^6.4.6"
+    "mongodb": "^3.5.9",
+    "nodemailer": "^6.4.8"
   },
   "devDependencies": {
     "nodemon": "^2.0.3"
