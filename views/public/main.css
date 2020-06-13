@@ -1,0 +1,28 @@
+body {
+  background-image: linear-gradient(to bottom right, lightblue, indianred);
+}
+
+html {
+  height: 100%
+}
+
+h1 {
+  font-family: 'Manrope', sans-serif;
+}
+
+.password-reset {
+  font-family: 'Manrope', sans-serif;
+  margin: 0 auto;
+  background-color:gainsboro;
+  border-radius:50px;
+  border: 2px black solid;
+  padding: 20px;
+  width: calc(100% - 40px)
+}
+
+.modal-container {
+  margin: 0 auto;
+  width: 500px;
+  text-align: center;
+  padding: 40px;
+}
