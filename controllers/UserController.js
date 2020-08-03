@@ -10,10 +10,10 @@ const nodemailer = require('nodemailer');
 const TOKEN_EXPIRATION = '10m'
 
 var transporter = nodemailer.createTransport({
-  service: 'iCloud',
+  service: '<service>',
   auth: {
-    user: 'bjarne.voigtlaender@icloud.com',
-    pass: 'vgrj-rfxn-uvbg-quzq'
+    user: '<user>',
+    pass: '<pass>'
   }
 });
 
