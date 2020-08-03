@@ -4,7 +4,7 @@ class Connection {
     static connectToMongo() {
         if (this.db) return Promise.resolve(this.db)
         return MongoClient.connect(this.url, this.options)
-            .then(client => this.db = client.db('game-dev-tycoon'))
+            .then(client => this.db = client.db('simple-api'))
     }
 }
 

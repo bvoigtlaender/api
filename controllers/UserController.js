@@ -62,7 +62,6 @@ class UserController {
         }
       }
       const user = jwt.verify(refreshToken, process.env.REFRESH_TOKEN_SECRET)
-      await Connection.db.collection('gamedata').updateOne({ userid: new ObjectId(user._id) }, query)
       const response = Connection.db.collection('tokens').deleteOne({ token: refreshToken })
       return response
     } catch (err) {
